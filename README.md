@@ -10,10 +10,10 @@ This dataset has been split into training and validation files. In both files, t
 Both of them should give same results. Shuffle the data and double check the shape of image to see if they are correct. Here I use image size as (128, 128) and RGB color mode. Hence the final shape of data should be: (total number of pictures, 128, 128, 3). If not, reshape is needed. In my case, I have 10168 images in total, and about 57% of them are cars.
 
 ## Build CNN model
-Before constructing the CNN, I aslo use data augmentations to help generating fake data by rotation, flipping and adjusting contrast. The CNN model itself consists of three layers before flatterned.  Each layer has:
- * a Batch Normalization, 
- * kernel size of (5, 5),
+Before constructing the CNN, I aslo use data augmentations to help generating fake data by rotation, flipping and adjusting contrast. The CNN model itself consists of three layers before flatterned. Each layer has:
+ * Batch Normalization, 
  * doubled number of filters compared to the former layer, starting with 64 filters, which means 64, 128, 256 in each layers,
+ * kernel size of (5, 5),
  * No padding,
  * stride = 1,
  * Activation function `Relu`,
