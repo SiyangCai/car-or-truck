@@ -24,4 +24,4 @@ After constructing the model, it will be fitted using the data with a training-v
 ## Results
 Here we can plot the binary accuracy and loss across 80 epochs:
 
-![training vs. validation accuracy](accuracy.png)
+![training vs. validation accuracy](accuracy)
