@@ -30,3 +30,5 @@ Here I plot the training and validation accuracy:
 Also, training and validation loss:
 
 ![training vs. validation loss](loss.png)
+
+The best score of accuracy in the validation is 88.84%, with also the best score of loss 0.2708. There is no sign of overfitting in this case. 
