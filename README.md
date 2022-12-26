@@ -7,4 +7,4 @@ This dataset has been split into training and validation files. In both files, t
   * use `imread` in `cv2` package, or
   * use `load_img` and `img_to_array` in `Keras`. 
  
-Both of them should give same results. Shuffle the data and double check the shape of image to see if they are correct. Here I use image size as (128, 128) and RGB color mode. Hence the final shape of data should be: (total number of pictures, 128, 128, 3).
+Both of them should give same results. Shuffle the data and double check the shape of image to see if they are correct. Here I use image size as (128, 128) and RGB color mode. Hence the final shape of data should be: (total number of pictures, 128, 128, 3). If not, reshape is needed. In my case, I have 10168 images in total, and about 57% of them are cars.
