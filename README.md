@@ -30,4 +30,5 @@ Here I plot the training and validation results as binary accuracy and loss (bin
 Also, the loss of training vs. validation:
 
 ![training vs. validation loss](loss.png)
+
 Both validation loss and accuracy are close to those values of training, and even slightly higher, which means our model is not underfitting. The best score of accuracy in the validation is 88.84%, with also the best score of loss 0.2708. There is also no sign of overfitting in this case, which might show a decrease of validation score when training score increases after a certain epoch. 
