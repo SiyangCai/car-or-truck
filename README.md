@@ -22,6 +22,11 @@ Before constructing the CNN, I aslo use data augmentations to help generating fa
 After constructing the model, it will be fitted using the data with a training-validation split as 0.2 in 80 epochs.
 
 ## Results
-Here I plot
+Here I plot the training and validation accuracy:
+
 ![training vs. validation accuracy](accuracy.png)
+
+
+Also, training and validation loss:
+
 ![training vs. validation loss](loss.png)
